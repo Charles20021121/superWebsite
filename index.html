@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login&register</title>
+</head>
+<body>
+    <section class="container">
+        <div class="form">
+           
+                <header>Login</header>
+
+                <form action="#">
+                    <div class="form-input">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+                    <div class="form-input">
+                        <input type="password" placeholder="Password" class="input" id="input-login-password">
+                        <i class='bx bx-hide eye-icon login-eye-icon'></i>
+                    </div>
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+                    <div class="form-button">
+                        <button>Login</button>
+                    </div>
+                </form> 
+                <div class="form-link">
+                    <span>Don't Have an Account? <a href="#" id="signup" class="signup-link">Sign Up</a></span>
+                </div>        
+
+        </div>
+        <div class="form signup">
+           
+            <header>Sign up</header>
+
+            <form action="#">
+
+                <div class="form-input">
+                    <input type="text" placeholder="First Name" class="input">
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Last Name" class="input">
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Address" class="input">
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+                <div class="form-input">
+                    <input type="email" placeholder="Email" class="input">
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Password" class="input" id="input-signup-password-1">
+                </div>
+                <div class="form-input">
+                    <input type="password" placeholder="Re-enter Password" class="input" id="input-signup-password-2">
+                    <i class='bx bx-hide eye-icon signup-eye-icon'></i>
+                </div>
+                <div class="form-link">
+                    <a href="#" class="forgot-pass">Forgot password?</a>
+                </div>
+                <div class="form-button">
+                    <button>Login</button>
+                </div>
+            </form> 
+            <div class="form-link">
+                <span>Already Have an Account <a href="#" id="login" class="login-link">Login</a></span>
+            </div>        
+
+    </div>
+
+    </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
